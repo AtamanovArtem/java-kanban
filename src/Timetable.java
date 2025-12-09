@@ -14,7 +14,7 @@ public class Timetable {
 
         TreeMap<TimeOfDay, ArrayList<TrainingSession>> sessionsForDay = timetable.get(dayOfWeek);
 
-        if(sessionsForDay.containsKey(timeOfDay)) {
+        if (sessionsForDay.containsKey(timeOfDay)) {
             sessionsForDay.get(timeOfDay).add(trainingSession);
         } else {
             ArrayList<TrainingSession> sessions = new ArrayList<>();
