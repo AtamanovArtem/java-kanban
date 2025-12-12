@@ -1,4 +1,5 @@
 public class CounterOfTrainings {
+
     private Coach coach;
     private int count;
 

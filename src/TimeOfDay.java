@@ -6,14 +6,12 @@ public class TimeOfDay implements Comparable<TimeOfDay> {
         return hours;
     }
 
-    //часы (от 0 до 23)
     private int hours;
 
     public int getMinutes() {
         return minutes;
     }
 
-    //минуты (от 0 до 59)
     private int minutes;
 
     public TimeOfDay(int hours, int minutes) {

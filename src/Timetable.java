@@ -11,7 +11,6 @@ public class Timetable {
         if (!timetable.containsKey(dayOfWeek)) {
             timetable.put(dayOfWeek, new TreeMap<>());
         }
-
         TreeMap<TimeOfDay, ArrayList<TrainingSession>> sessionsForDay = timetable.get(dayOfWeek);
 
         if (sessionsForDay.containsKey(timeOfDay)) {
